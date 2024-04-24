@@ -1,0 +1,6 @@
+name: FTechCore
+version: '${version}'
+main: io.github.haappi.ftechcore.FTechCore
+api-version: '1.20'
+load: STARTUP
+author: haappi
