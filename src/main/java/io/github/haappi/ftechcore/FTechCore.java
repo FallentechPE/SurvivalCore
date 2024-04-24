@@ -31,6 +31,7 @@ public final class FTechCore extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new BetterChat(), this);
         getServer().getPluginManager().registerEvents(new Advancements(), this);
         getServer().getCommandMap().register("uuid", new UUID());
+        getServer().getCommandMap().register("spawn", new Spawn());
 //        getServer().getPluginManager().registerEvents(new InventoryViewer(), this);
 
     }
